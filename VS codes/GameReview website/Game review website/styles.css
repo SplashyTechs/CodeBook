@@ -1,0 +1,67 @@
+html 
+{ 
+    background-color: #fefae0;
+
+}
+
+body 
+{
+    margin: 0;
+}
+
+.banner-wrapper
+{
+    
+    padding: 48px 0px;
+    border: 10px;
+ 
+
+}
+
+.options-container  li
+{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    
+}
+.options-container li a 
+{
+    
+    padding: 30px;
+    margin: 30px;
+    border-radius: 25px;
+    text-decoration: none
+   ;
+    
+}
+
+.home-landing-button 
+{
+    display: inline-block;
+}
+
+.home-landing-button a li 
+{
+    color: black;
+}
+
+.home-landing-button:hover
+{
+    transition: 1s;
+    background-color: #000814;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+
+.main-content-options {
+
+    display: inline-block;
+    float: right;
+}
+
+#home-button
+{
+    color: black;
+}
