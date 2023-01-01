@@ -1,0 +1,68 @@
+html 
+{ 
+    background-color: #003566;
+
+}
+
+body 
+{
+    margin: 0;
+}
+
+.banner-wrapper
+{
+    background-color: #ffc300;
+    padding: 48px 0px;
+    border: 10px;
+    border-bottom: 1rem solid;
+
+}
+
+.options-container  li
+{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    
+}
+.options-container li a 
+{
+    
+    padding: 30px;
+    margin: 30px;
+    border-radius: 25px;
+    text-decoration: none
+   ;
+    
+}
+
+.home-landing-button 
+{
+    display: inline-block;
+}
+
+.home-landing-button a li 
+{
+    color: ghostwhite;
+}
+
+.home-landing-button:hover
+{
+    transition: 1s;
+    background-color: #000814;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+
+.main-content-options {
+
+    display: inline-block;
+    float: right;
+}
+
+#home-button
+{
+    color: ghostwhite;
+}
+
