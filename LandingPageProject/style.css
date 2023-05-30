@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    }
+    
+    body {
+    background-color: #023e8a;
+    }
+    
+    a {
+    text-decoration: none;
+    }
+    
+    li {
+    list-style: none;
+    }
+
+
+
+.navbar-main
+{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 25px;
+}
+.navbar-links
+{
+    display: flex;
+    gap: 2em;
+    margin-right: 20px;
+}
+
+.navbar-links a
+{
+    color: #023e8a;
+}
+
+.navbar-links a:hover
+{
+    cursor: pointer;
+    border-bottom: solid 1px;
+    color: black;
+}
+
+.landing-page-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1.landing-page-text
+{
+    margin-top: 2.2em;
+    margin-left: 60px;
+}
+.landing-page-text b
+{
+    line-height: 2.0em;
+    font-size: 2.9rem;
+    color: white;
+    font-weight: 900;
+}
+
+.landing-page-subtext p:first-child
+{
+    margin-left: 60px;
+    color: white;
+    font-weight: 600;
+}
+
+.product-image-stack-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.product-images img
+{
+
+    width: 360px;
+    height: 218px;
+}
